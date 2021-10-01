@@ -58,24 +58,6 @@ public class tuts {
                 "Press 3 to Add A book \n" +
                 "Press 4 to return a Issued Book");
         int input = sc.nextInt();
-        if (input == 1) {
-            lib.showAvailibleBooks();
-        }
-
-        else if (input == 2) {
-            lib.issueBook();
-        }
-
-        else if (input == 3) {
-            lib.addBook();
-        }
-
-        else if (input == 4) {
-            lib.returnBook();
-        }
-
-        else {
-            System.out.println("Please Enter A valid input !!");
-        }
+        
     }
 }

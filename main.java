@@ -75,7 +75,7 @@ public class tuts {
         }
 
         else {
-            System.out.println("Please Enter A valid input to proceed with tye program!!");
+        System.out.println("Please Enter A valid input to proceed with the program !!");
         }
     }
 }

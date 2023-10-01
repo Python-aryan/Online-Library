@@ -53,10 +53,10 @@ public class tuts {
 //        lib.issueBook();
 //        lib.returnBook();
         System.out.println("Welcome to this Libary !!");
-        System.out.println("Please Enter 1 to Display the Available Books \n" +
-                "Please press 2 to Issue A Book \n" +
-                "Press 3 to Add A book \n" +
-                "Press 4 to return a Issued Book");
+        System.out.println("Please Enter 1 to Display the Available Books in Libary \n" +
+                "Please press 2 to Issue A Book in Libary \n" +
+                "Press 3 to Add A book to the libary and be a part of this Libary \n" +
+                "Press 4 to return a Issued Book from libary");
         int input = sc.nextInt();
         if (input == 1) {
             lib.showAvailibleBooks();
@@ -75,7 +75,7 @@ public class tuts {
         }
 
         else {
-            System.out.println("Please Enter A valid input !!");
+            System.out.println("Please Enter A valid input to proceed with tye program!!");
         }
     }
 }
